@@ -1,0 +1,103 @@
+.specialties-section {
+  background-color: var(--color-white);
+  padding: 4rem 2rem;
+  font-family: var(--font-ovo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.title-specialties {
+  font-family: var(--font-poppins);
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--color-green);
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.specialty-card {
+  background: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0 6px 15px var(--color-translucent-dark-35);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.specialty-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px var(--color-translucent-dark);
+  color: var(--color-white);
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1.9rem;
+  transition: color 0.3s ease;
+}
+
+.description-specialties {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-black);
+  margin-bottom: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .description-specialties {
+    font-size: 1.9rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .specialties-section {
+    padding: 3rem 1rem;
+  }
+
+  .title-specialties {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .description-specialties {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+}
