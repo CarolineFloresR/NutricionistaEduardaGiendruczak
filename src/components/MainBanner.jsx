@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/mainBanner.css";
-import ImgBanner from  "../assets/bannerPrincipal.jpg";
+import ImgBanner from  "../assets/BannerPrincipal.jpg";
 import BannerText from "./BannerText";
 
 const MainBanner = () => {
