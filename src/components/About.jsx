@@ -1,5 +1,5 @@
 import React from "react";
-import ImagemLogo from "../assets/logo.png"
+import ImagemLogo from "../assets/Logo.png"
 import ImgNutri from "../assets/Eduarda.jpeg"
 import "../css/about.css";
 
