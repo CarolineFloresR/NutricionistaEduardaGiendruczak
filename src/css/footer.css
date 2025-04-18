@@ -11,7 +11,7 @@
   }
   
   .footer-left img {
-    width: 40%;
+    width: 50%;
   }
  
   
@@ -55,8 +55,7 @@
     }
   
     .social-icon {
-      width: 25px;
-      height: 25px;
+      font-size: 5rem;
     }
   }
   

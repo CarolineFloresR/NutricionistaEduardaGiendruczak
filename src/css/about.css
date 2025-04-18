@@ -106,7 +106,7 @@
   }
 
   .imgNutri {
-    max-width: 90%;
+    max-width: 70%;
   }
 
   .title-about {
@@ -174,5 +174,6 @@
   .image-logo {
     margin: 2rem auto 0;
     display: block;
+    width: 35%;
   }
 }

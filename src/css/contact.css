@@ -76,7 +76,7 @@
 
 
 .title-contact {
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
   font-weight: 500;
   margin-bottom: 1.5rem;
   color: var(--color-green);
@@ -123,6 +123,10 @@
   .info-label,
   .whatsapp-btn {
     font-size: 1.6rem !important;
+  }
+
+  .title-contact {
+  font-size: 2rem;
   }
 }
 
