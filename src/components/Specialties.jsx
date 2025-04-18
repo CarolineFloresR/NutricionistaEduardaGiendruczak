@@ -9,11 +9,11 @@ const Specialties = () =>{
       <div className="grid">
         <div className="specialty-card">
           <div className="icon">🏋️‍♂️</div>
-          <h3 className="description-specialties">Nutrição Esportiva</h3>
+          <h3 className="description-specialties">Nutrição Esportiva e Estética</h3>
         </div>
         <div className="specialty-card">
-          <div className="icon">💆‍♀️</div>
-          <h3 className="description-specialties">Nutrição Estética</h3>
+          <div className="icon">🥗</div>
+          <h3 className="description-specialties">Reeducação alimentar, emagrecimento e hipertrofia </h3>
         </div>
         <div className="specialty-card">
           <div className="icon">🏥</div>
@@ -21,7 +21,7 @@ const Specialties = () =>{
         </div>
         <div className="specialty-card">
           <div className="icon">⚕️</div>
-          <h3 className="description-specialties">Nutrição Clínica em Endócrino</h3>
+          <h3 className="description-specialties">Nutrição Clínica</h3>
         </div>
       </div>
     </div>

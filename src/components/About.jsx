@@ -19,7 +19,8 @@ const About = () => {
         <h2 className="title-about">Sobre mim</h2>
         <p className="description-about">
           Olá! Me chamo Eduarda Giendruczak, sou nutricionista 
-          formada pela PUC-RS e apaixonada pelo cuidado integrativo. 
+          graduada pela PUC-RS, pós graduada em nutrição esportiva e estética, 
+          com capacitação em nutrição clínica e endócrino pelo HCPA, e apaixonada pelo cuidado integrativo. 
           Acredito que a nutrição vai muito além da contagem de calorias
           — é sobre equilíbrio, saúde e bem-estar. Meu objetivo é te 
           ajudar a criar uma relação mais leve e sustentável com a comida,
